@@ -1,11 +1,9 @@
 /*
- * Decompiled with CFR 0_122.
+  Decompiled with CFR 0_122.
  */
 
-import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 

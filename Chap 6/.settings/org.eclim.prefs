@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+org.eclim.java.import.exclude=["^com.sun..*","^sunw?..*"]
+org.eclim.java.run.mainclass=
+org.eclim.user.email=dhseo1011@gmail.com
+org.eclim.user.name=AccCreate
