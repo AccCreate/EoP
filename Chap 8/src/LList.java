@@ -1,9 +1,17 @@
 public class LList<T>{
-    Node<T> head;
+    public Node<T> head;
+
+    public LList(T data){
+        push(data);
+    }    
+
+    public LList(){
+        head = null;    
+    }
 
     public class Node<T> {
-        private T data;
-        private Node<T> next;
+        protected T data;
+        protected Node<T> next;
 
         public Node(T data, Node<T> next){
             this.data = data;
@@ -40,7 +48,7 @@ public class LList<T>{
         public void setNext(Node<T> next) {
             this.next = next;
         }
-         
+
     }
 
     // Push
@@ -58,13 +66,13 @@ public class LList<T>{
     // Search
     public Node<T> search(Node<T> L, T searchKey) {
         while (L.data != null){
-           if (L.data == searchKey)
-               return L;
-           L = L.next;
+            if (L.data == searchKey)
+                return L;
+            L = L.next;
         }
         return null;
     }
-    
+
     public static void main(String args[]){
         System.out.println("working"); 
     }
