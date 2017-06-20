@@ -1,4 +1,6 @@
-public class LList<T>{
+import java.util.Iterator;
+
+public class LList<T> implements Iterable<T>{
     public Node<T> head;
 
     public LList(T data){
@@ -76,4 +78,41 @@ public class LList<T>{
     public static void main(String args[]){
         System.out.println("working"); 
     }
+
+    @Override
+    public Iterator<T> iterator() {
+        // TODO Auto-generated method stub
+        return new LListIterator();
+    }
+
+    private class LListIterator implements Iterator<T> {
+        private Node<T> nextNode;
+
+        public LListIterator() {
+            nextNode = head;
+        }
+        @Override
+        public boolean hasNext() {
+            // TODO Auto-generated method stub
+            return nextNode != null;
+        }
+
+        @Override
+        public T next() {
+            // TODO Auto-generated method stub
+            if (!hasNext())
+                try {
+                    throw new Exception();
+                } catch (Exception e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            T data = nextNode.data;
+            nextNode = nextNode.next;
+            return data;
+        }
+
+    }
+    
+
 }
