@@ -1,0 +1,14 @@
+import java.util.concurrent.DelayQueue;
+
+class P132_0
+{
+    public static void main(String args[])
+    {
+        
+    }
+
+    public void reverseLinkedList(ListNode<Integer> linkedNode) {
+        Deque<Integer> deq = new DelayQueue();
+
+    }
+}

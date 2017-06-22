@@ -1,0 +1,13 @@
+import org.w3c.dom.NameList;
+
+class P132_0
+{
+    public static void main(String args[])
+    {
+        
+    }
+
+    public void reverseLinkedList(NameList<Integer> linkedNode) {
+    
+    }
+}
