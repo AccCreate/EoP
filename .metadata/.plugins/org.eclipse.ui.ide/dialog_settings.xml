@@ -5,6 +5,9 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/paul/Desktop/TowerDefence-master"/>
+			<item value="/home/paul/Desktop/farmsandcastles-master"/>
+			<item value="/home/paul/Documents/GitHub/Tower-Defense"/>
 			<item value="/home/paul/Documents/GitHub/EoP"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">

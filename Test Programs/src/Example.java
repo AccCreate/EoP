@@ -1,7 +1,6 @@
 /*
  * Decompiled with CFR 0_122.
  */
-
 import java.io.InputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
@@ -14,7 +13,7 @@ public class Example {
         Scanner scnr = new Scanner(System.in);
         ArrayList<Integer> list = new ArrayList<Integer>(10);
         System.out.println("Please enter 10 values");
-        int i = 0;
+	int i = 0;
         while (i < 10) {
             list.add(scnr.nextInt());
             ++i;
