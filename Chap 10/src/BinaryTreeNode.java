@@ -1,8 +1,8 @@
 public class BinaryTreeNode<T> {
-    private BinaryTreeNode left;
-    private BinaryTreeNode right;
-    private T value;
-    private BinaryTreeNode rightSibling;
+    public BinaryTreeNode left;
+    public BinaryTreeNode right;
+    public T value;
+    public BinaryTreeNode rightSibling;
 
     public BinaryTreeNode(BinaryTreeNode left, BinaryTreeNode right, T value) {
         this.left = left;
@@ -10,7 +10,6 @@ public class BinaryTreeNode<T> {
         this.value = value;
 
     }
-
 
     /**
      *
